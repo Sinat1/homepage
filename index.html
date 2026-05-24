@@ -1,15 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Résumé</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-    <!-- ― Hello World! &#x1F609; -->
     <main>
         <div class="resume">
             <div class="container">
@@ -19,17 +19,13 @@
 
                     <div class="contact_info_container fh">
                         <div class="contact-info__block">
-                            <a href="" rel="author" class="contact-info__item">
+                            <a href="mailto:sinati0508@gmail.com" class="contact-info__item">
                                 <div class="contact-info__item-icon-wrapper">
-                                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 384 512">
-                                        <path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192
-                                    0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535
-                                    13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817
-                                    80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
+                                    <svg class="contact-info__item-icon">
+                                        <use href="/assets/images/sprite.svg#icon-mail"></use>
                                     </svg>
                                 </div>
-                                <span>Kyiv, Ukraine</span>
+                                sinati0508@gmail.com
                             </a>
                             <a href="tel:+380661560361" class="contact-info__item">
                                 <div class="contact-info__item-icon-wrapper">
@@ -37,8 +33,21 @@
                                         <use href="/assets/images/sprite.svg#icon-phone"></use>
                                     </svg>
                                 </div>
-
                                 +380 (66) 156-03-61
+                            </a>
+                            <a href="" rel="author" class="contact-info__item">
+                                <div class="contact-info__item-icon-wrapper">
+                                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 384 512">
+                                        <path
+                                            d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192
+                                                                0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535
+                                                                13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817
+                                                                80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <span>Kyiv, Ukraine</span>
                             </a>
                         </div>
 
@@ -47,8 +56,17 @@
                         </div>
 
                         <div class="contact-info__block">
+                            <a href="https://t.me/AleksandroVvvV" class="contact-info__item" target="_blank"
+                                id="contact-info__item-right-block">
+                                <div class="contact-info__item-icon-wrapper">
+                                    <svg class="contact-info__item-icon">
+                                        <use href="/assets/images/symbol-defs.svg#icon-telegram"></use>
+                                    </svg>
+                                </div>
+                                <span>Telegram</span>
+                            </a>
                             <a href="https://www.linkedin.com/in/vitalii-aleksandrovv/" rel="author"
-                                class="contact-info__item" target="_blank" id="contact-info__item-3">
+                                class="contact-info__item" target="_blank" id="contact-info__item-right-block">
                                 <div class="contact-info__item-icon-wrapper">
                                     <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg"
                                         viewBox="0 0 448 512">
@@ -64,7 +82,7 @@
                                 <span>LinkedIn</span>
                             </a>
                             <a href="https://github.com/Sinat1" class="contact-info__item" target="_blank"
-                                id="contact-info__item-4">
+                                id="contact-info__item-right-block">
                                 <div class="contact-info__item-icon-wrapper">
                                     <svg class="contact-info__item-icon">
                                         <use href="/assets/images/symbol-defs.svg#icon-github"></use>
@@ -91,18 +109,142 @@
                             </svg>
                         </div>
                         <p class="intro_text">
-                            I am a Junior Full-Stack Developer focused on HTML5, CSS3, JS and React. I have a great
-                            desire to learn and develop in
-                            this sphere as well as creating and inventing something new to make my own contribution in
-                            innovative industry growth.
-                            That is why I am looking for a company with common goals that's aimed at making both
-                            everyday life and business more
-                            productive and user-friendly. I am fast-learner seeking for upgrowth, responsible and ready
-                            for challenging tasks.
+                            I am a Junior Full-Stack Developer focused on HTML5, CSS3, JS
+                            and React. I have a great desire to learn and develop in this
+                            sphere as well as creating and inventing something new to make
+                            my own contribution in innovative industry growth. That is why I
+                            am looking for a company with common goals that's aimed at
+                            making both everyday life and business more productive and
+                            user-friendly. I am fast-learner seeking for upgrowth,
+                            responsible and ready for challenging tasks.
                         </p>
                     </div>
                 </div>
             </div>
+            <div class="container">
+                <div class="resume__block">
+                    <div class="skills">
+                        <h3 class="skills__header">Technical Skills</h3>
+                        <ul class="skills__list">
+                            <li class="skills__item"><i class="fab fa-html5"> HTML5</i></li>
+                            <li class="skills__item"><i class="fab fa-css3"> CSS3</i></li>
+                            <li class="skills__item"><i class="fab fa-sass"> SASS</i></li>
+                            <li class="skills__item">
+                                <i class="fas fa-mobile-alt"> Responsive design</i>
+                            </li>
+                            <li class="skills__item"><i class="fab fa-git-alt"> GIT</i></li>
+                            <li class="skills__item">
+                                <i class="fab fa-js-square"> JavaScript</i>
+                            </li>
+                            <li class="skills__item"><i class="fab fa-react"> React</i></li>
+                            <li class="skills__item"><i class="fas fa-sync"> Redux</i></li>
+                            <li class="skills__item">
+                                <i class="fas fa-cloud"> REST API</i>
+                            </li>
+                            <li class="skills__item">
+                                <i class="fas fa-code"> Handlebars</i>
+                            </li>
+                            <li class="skills__item">
+                                <i class="fas fa-cogs"> Webpack</i>
+                            </li>
+                            <li class="skills__item"><i class="fas fa-box"> Parcel</i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="resume__block">
+                    <div class="skills">
+                        <h3 class="skills__header">Soft Skills</h3>
+                        <ul class="skills__list">
+                            <li class="skills__item">
+                                <i class="fas fa-search"> Attention to details</i>
+                            </li>
+                            <li class="skills__item">
+                                <i class="fas fa-users"> Teamwork</i>
+                            </li>
+                            <li class="skills__item">
+                                <i class="fas fa-lightbulb"> Creativity</i>
+                            </li>
+                            <li class="skills__item">
+                                <i class="fas fa-comments"> Good communication</i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="resume__block">
+                    <div class="skills">
+                        <h3 class="skills__header">Languages</h3>
+                        <ul class="skills__list">
+                            <li class="skills__item">
+                                <i class="fas fa-language"> English - Upper-Intermediate</i>
+                            </li>
+                            <li class="skills__item">
+                                <i class="fas fa-language"> Ukrainian - Native</i>
+                            </li>
+                            <li class="skills__item">
+                                <i class="fas fa-language"> Russian - Fluent</i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="resume__block">
+                    <h3 class="experiences__header">Experience</h3>
+                    <div class="experiences__textblock">
+                        <img class="experiences__img" src="/assets/images/omd-logo.png" alt="OMD logo" />
+                        <div>
+                            <h3 class="experiences__textblock-title">
+                                Junior Strategic Planner OMD Optimum Media, Kyiv UA
+                            </h3>
+                            <p class="experiences__textblock-subtitle">
+                                February 2021 - January 2024 | Ukraine
+                            </p>
+                            <p class="experiences__textblock-text">
+                                - Created media strategies under the guidance of senior
+                                colleagues.
+                                <br />
+                                - Assisted senior colleagues with certain parts of their work
+                                requests. <br />
+                                - Took responsibility for generating ideas for the
+                                implementation of certain tasks during teamwork. <br />
+                                - Searched insights to understand how audiences will
+                                contribute to achieving the overall business goals. <br />
+                                <br />
+                                <strong>Achievement:</strong> I've created a strategy after
+                                which client received the category's leading sales level.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="resume__block">
+                    <h3 class="education__header">Education</h3>
+                    <ul class="education__list">
+                        <li class="education__item">
+                            <img class="education__img" src="assets/images/goit-logo.png" alt="GoIT logo">
+                            <div>
+                                <h3 class="education__item-title">IT School GoIT (Kyiv)</h3>
+                                <p class="education__text-subtitle">February 2022 - February 2023</p>
+                                <p class="education__text">Fullstack Developer</p>
+                            </div>
+                        </li>
+                        <li class="education__item">
+                            <img class="education__img" src="/assets/images/iir-logo.png" alt="IIR logo">
+                            <div>
+                                <h3 class="education__item-title">Institute of international relations (Kyiv)</h3>
+                                <p class="education__text-subtitle">September 2015 - January 2021 | Ukraine</p>
+                                <p class="education__text">Master's Degree in International Management and Marketing</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         </div>
     </main>
 </body>
