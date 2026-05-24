@@ -216,9 +216,9 @@ body {
 /* Experience and additional info styles */
 
 .experiences__header {
-    color: var(--secondary-text-color);
-    text-align: center;
-    margin-bottom: 20px;
+  color: var(--secondary-text-color);
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .experiences__textblock {
@@ -269,24 +269,62 @@ body {
 
 .education__img {
   width: 120px;
-    margin-right: 20px;
+  margin-right: 20px;
   margin-bottom: 0;
 }
 
 .education__item-title {
-    margin-bottom: 10px;
-    font-size: 16px;
-    color: var(--primary-text-color);
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: var(--primary-text-color);
 }
 
 .education__text-subtitle {
-color: var(--durability-text-color);
-font-size: 14px;
+  color: var(--durability-text-color);
+  font-size: 14px;
 }
 
 .education__text {
-    font-size: 14px;
-    color: var(--secondary-text-color);
+  font-size: 14px;
+  color: var(--secondary-text-color);
+}
+
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 100;
+  font-size: 24px;
+  background-color: var(--text-decoration-color);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    background-color var(--timing-function),
+    opacity 0.3s,
+    visibility 0.3s;
+  animation: float 2.5s ease-in-out infinite;
+}
+
+#scrollToTopBtn.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+#scrollToTopBtn:hover {
+  background-color:#ff5e00;
+}
+
+.scroll-btn {
+  width: 40px;
+  height: 40px;
+  fill: #fff;
 }
 
 @media screen and (min-width: 577px) and (max-width: 652px) {
@@ -345,5 +383,30 @@ font-size: 14px;
     margin-right: 0;
     margin-bottom: 20px;
     width: 120px;
+  }
+
+  #scrollToTopBtn {
+    width: 45px;
+    height: 45px;
+    right: 25px;
+  }
+
+  .scroll-btn {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-6px);
+  }
+
+  100% {
+    transform: translateY(0px);
   }
 }
