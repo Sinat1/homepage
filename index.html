@@ -22,7 +22,7 @@
                             <a href="mailto:sinati0508@gmail.com" class="contact-info__item">
                                 <div class="contact-info__item-icon-wrapper">
                                     <svg class="contact-info__item-icon">
-                                        <use href="/assets/images/sprite.svg#icon-mail"></use>
+                                        <use href="assets/images/sprite.svg#icon-mail"></use>
                                     </svg>
                                 </div>
                                 sinati0508@gmail.com
@@ -30,7 +30,7 @@
                             <a href="tel:+380661560361" class="contact-info__item">
                                 <div class="contact-info__item-icon-wrapper">
                                     <svg class="contact-info__item-icon">
-                                        <use href="/assets/images/sprite.svg#icon-phone"></use>
+                                        <use href="assets/images/sprite.svg#icon-phone"></use>
                                     </svg>
                                 </div>
                                 +380 (66) 156-03-61
@@ -55,12 +55,14 @@
                             <img class="contact-info__avatar" src="assets/images/my-photo.jpg" alt="Avatar" />
                         </div>
 
+
+
                         <div class="contact-info__block">
                             <a href="https://t.me/AleksandroVvvV" class="contact-info__item" target="_blank"
                                 id="contact-info__item-right-block">
                                 <div class="contact-info__item-icon-wrapper">
                                     <svg class="contact-info__item-icon">
-                                        <use href="/assets/images/symbol-defs.svg#icon-telegram"></use>
+                                        <use href="assets/images/symbol-defs.svg#icon-telegram"></use>
                                     </svg>
                                 </div>
                                 <span>Telegram</span>
@@ -85,7 +87,7 @@
                                 id="contact-info__item-right-block">
                                 <div class="contact-info__item-icon-wrapper">
                                     <svg class="contact-info__item-icon">
-                                        <use href="/assets/images/symbol-defs.svg#icon-github"></use>
+                                        <use href="assets/images/symbol-defs.svg#icon-github"></use>
                                     </svg>
                                 </div>
                                 <span>Github</span>
@@ -195,7 +197,7 @@
                 <div class="resume__block">
                     <h3 class="experiences__header">Experience</h3>
                     <div class="experiences__textblock">
-                        <img class="experiences__img" src="/assets/images/omd-logo.png" alt="OMD logo" />
+                        <img class="experiences__img" src="assets/images/omd-logo.png" alt="OMD logo" />
                         <div>
                             <h3 class="experiences__textblock-title">
                                 Junior Strategic Planner OMD Optimum Media, Kyiv UA
@@ -234,7 +236,7 @@
                             </div>
                         </li>
                         <li class="education__item">
-                            <img class="education__img" src="/assets/images/iir-logo.png" alt="IIR logo">
+                            <img class="education__img" src="assets/images/iir-logo.png" alt="IIR logo">
                             <div>
                                 <h3 class="education__item-title">Institute of international relations (Kyiv)</h3>
                                 <p class="education__text-subtitle">September 2015 - January 2021 | Ukraine</p>
@@ -250,11 +252,23 @@
 
     <button id="scrollToTopBtn" title="Go to top">
         <svg class="scroll-btn">
-            <use href="/assets/images/sprite.svg#icon-up"></use>
+            <use href="assets/images/sprite.svg#icon-up"></use>
         </svg>
     </button>
 
+    <!-- Easter Egg Modal -->
+    <div class="easter-egg-backdrop js-easter-backdrop">
+        <div class="easter-egg-modal">
+            <button class="easter-egg-modal__close js-easter-close" aria-label="Close modal">
+                ×
+            </button>
+
+            <img class="easter-egg-modal__image" src="assets/images/easteregg.png" alt="Funny photo" />
+        </div>
+    </div>
+
     <script type="module" src="/js/scrollUp.js"></script>
+    <script type="module" src="/js/easterEgg.js"></script>
 </body>
 
 </html>
