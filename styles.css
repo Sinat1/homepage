@@ -407,6 +407,34 @@ body.no-scroll {
   fill: #fff;
 }
 
+.download__btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.download__btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--text-decoration-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background-color var(--timing-function),
+    transform var(--timing-function);
+
+  &:hover {
+    background-color: #ff5e00;
+    transform: scale(1.01);
+  }
+}
+
 @media screen and (min-width: 577px) and (max-width: 652px) {
   .education__img {
     width: 80px;
